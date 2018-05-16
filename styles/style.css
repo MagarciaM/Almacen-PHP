@@ -1,0 +1,185 @@
+body {
+  background: #f7f7f7;
+  font-family: "Open Sans";
+  font-size: 12pt;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  background: #e7e7e7;
+  max-width: 330px;
+  margin: 50px auto;
+}
+
+nav {
+  background: #ffffff;
+  width: 100%;
+}
+
+header, thead{
+  background: #057A76;
+  padding: 20px;
+}
+
+header h1, th{
+  font-size: 15px;
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: none;
+}
+
+nav ul li {
+  display: block;
+  background: #4DB848;
+}
+
+nav ul li.active {
+  background: #ffffff;
+}
+
+nav ul li.active a {
+  color: #4DB848;
+  border-left: 2px solid #4DB848;
+}
+
+nav ul li.active ul {
+  display: block;
+}
+
+nav ul li:last-child {
+  border-bottom: none;
+}
+
+nav ul li ul {
+  display: none;
+}
+
+nav ul li ul li a {
+  background: #ffffff;
+  padding-left: 40px;
+  color: #4DB848;
+}
+
+nav ul li ul li a:hover {
+  padding-left: 45px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s linear;
+  border-left: 2px solid transparent;
+}
+
+nav ul li a:hover {
+  background: #ffffff;
+  padding-left: 20px;
+  border-left: 2px solid #4DB848;
+  color: #4DB848;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.form {
+	position: relative;
+  	z-index: 1;
+  	background: #4DB848;
+  	max-width: 400px;
+  	margin: 50px auto;
+}
+
+label {
+	margin-left: 50px;
+	margin-top: 10px;
+	color: #fff;
+	font-size: 13pt;
+	font-family: "Arial";
+    width:170px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+}
+
+input, select {
+    width:220px; 
+    padding:5px 8px;
+}
+
+#color {
+    height: 20px;
+}
+
+#boton {
+    font-size: 11pt;
+    width: 300px; 
+    height: 45px;
+    border: none;   
+    color: #fff;  
+    background-color: #057A76;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+table {
+    background: #4DB848;
+    border-collapse: collapse;
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+tr {
+    border: 1px solid #C1C3D1;
+    color:white;
+    font-size:16px;
+}
+
+td {
+    padding:15px;
+    text-align:center;
+    font-size:18px;
+    border-right: 1px solid #C1C3D1;
+}
+
+#boton1 {
+   font-size: 11pt;
+   width: 300px; 
+   height: 45px;
+   border: none;   
+   color: #fff;  
+   background-color: #057A76;
+   margin-left: 500px;
+}
+
+.login {
+    text-align: center;
+}
+
